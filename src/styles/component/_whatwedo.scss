@@ -1,0 +1,57 @@
+.about {
+  background: #1f1f31;
+  padding: 4rem 0;
+}
+.about h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #4343f7;
+  margin-top: 2rem;
+
+  @media screen and (max-width: 450px) {
+  text-align: center;
+}
+}
+
+.about h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5rem;
+  color: #3a3af7;
+
+   @media screen and (max-width: 450px) {
+  text-align: center;
+}
+}
+
+.about i {
+  font-size: 48px;
+  margin-top: 15px;
+  color: white;
+
+   @media screen and (max-width: 450px) {
+  text-align: center;
+}
+}
+
+.about p {
+  font-size: 15px;
+  color: white;
+  margin-top: 1rem;
+  
+  @media screen and (max-width: 450px) {
+  text-align: center;
+}
+}
+
+@media (max-width: 991px) {
+  .about .about-fluid img {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .about .about-img img {
+    max-width: 90%;
+  }
+}
