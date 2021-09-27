@@ -139,11 +139,11 @@ function App() {
             <s.TextTitle
               style={{ textAlign: "center", fontSize: 35, fontWeight: "bold" }}
             >
-              {data.totalSupply}/25
+              {data.totalSupply}/5555
             </s.TextTitle>
             <s.SpacerMedium />
 
-            {Number(data.totalSupply) == 25 ? (
+            {Number(data.totalSupply) == 5555 ? (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
                   The sale has ended.
@@ -175,7 +175,7 @@ function App() {
                 <s.SpacerMedium />
                 <s.Container ai={"center"} jc={"center"} fd={"row"}>
                  <form action="">
-                      <input onChange={onChange}  type="number" name="" id="" min="1" style={{ width: "50px", height: "30px", margin: "0 20px 0 0", padding: "10px" }}/>
+                      <input onChange={onChange}  type="number" name="" id="" min="1" max="15" style={{ width: "50px", height: "30px", margin: "0 20px 0 0", padding: "10px" }}/>
                       <StyledButton
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
